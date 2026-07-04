@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>18th Birthday Invitation</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Georgia,serif;
+    background-image: url("IMG_20260418_165001_931.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.invitation{
+    background:rgba(255, 255, 255, 0.096);
+    width:90%;
+    max-width:650px;
+    padding:45px;
+    border-radius:20px;
+    border:8px solid #d81b60;
+    outline:3px solid #f8bbd0;
+    outline-offset:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+    text-align:center;
+    position:relative;
+}
+
+.invitation::before,
+.invitation::after{
+    content:"🌸";
+    font-size:35px;
+    color:#d81b60;
+    position:absolute;
+}
+
+.invitation::before{
+    top:15px;
+    left:20px;
+}
+
+.invitation::after{
+    bottom:15px;
+    right:20px;
+}
+
+.title{
+    display:inline-block;
+    padding:10px 30px;
+    border-top:2px solid #d81b60;
+    border-bottom:2px solid #d81b60;
+    margin:15px 0;
+}
+
+.debutante{
+    display:inline-block;
+    padding:10px 25px;
+    border:2px dashed #d81b60;
+    border-radius:15px;
+    font-size:32px;
+    color:#c2185b;
+    margin:20px 0;
+}
+
+.divider{
+    width:80%;
+    height:2px;
+    background:#d81b60;
+    margin:25px auto;
+}
+
+.details{
+    background:#f56484;
+    width:90%;
+    max-width:600px;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+h3{
+    color:#c2185b;
+    letter-spacing:3px;
+}
+
+h1{
+    color:#d81b60;
+    margin:10px 0;
+}
+
+h2{
+    color:#555;
+    margin-bottom:25px;
+}
+
+p{
+    font-size:18px;
+    line-height:1.8;
+    color:#555;
+}
+
+.details{
+    margin:30px 0;
+    text-align:left;
+    font-size:18px;
+}
+
+.details p{
+    margin:10px 0;
+}
+
+button{
+    background:#d81b60;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    border-radius:40px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ad1457;
+}
+
+footer{
+    margin-top:30px;
+    color:#888;
+    font-size:15px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="invitation">
+
+<h3>YOU ARE CORDIALLY INVITED</h3>
+
+<h1>✨ 18th Birthday Celebration ✨</h1>
+
+<h2>Celebrating the Debut of</h2>
+
+<h1>Crista Glezz A. Sanchez</h1>
+
+<p>
+With great joy and gratitude, we warmly invite you to celebrate
+this memorable milestone as our beloved debutante officially
+steps into adulthood.
+</p>
+
+<div class="details">
+
+<p><strong>📅 Date:</strong> July 26, 2026</p>
+
+<p><strong>🕒 Time:</strong> 6:00 PM</p>
+
+<p><strong>📍 Venue:</strong> Casimiro Baytown Village</p>
+
+</div>
+
+<p>
+Your presence will make this celebration even more meaningful.
+We would be honored to have you join us on this unforgettable evening.
+</p>
+
+<button onclick="alert('Thank you! We look forward to celebrating with you.')">
+💌 RSVP
+</button>
+
+<footer>
+We can't wait to celebrate with you! 💖
+</footer>
+
+</div>
+
+</body>
+</html>
